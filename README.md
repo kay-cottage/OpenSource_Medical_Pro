@@ -1,6 +1,12 @@
 
 # OpenSource_Medical_Pro
 
+![License](https://img.shields.io/badge/License-BSD%202--Clause-orange)
+[![License](https://img.shields.io/badge/Github-kay--cottage-brightgreen)](https://github.com/kay-cottage/)
+[![License](https://img.shields.io/badge/bilibili-kayyyak-blue)](https://space.bilibili.com/362186371)
+[![License](https://img.shields.io/badge/Notion-gw--kayyyak-yellow)](https://heathered-aster-9c5.notion.site/gw-kayyyak-f64dcc88dce54d50a031d2ba746906b4)
+
+
 *注意：禁止用于商业用途，欢迎个人学习交流！*
 
 # 介绍（introduction）
@@ -11,10 +17,6 @@
 * 该项目也会整合一些其他的医学AI项目完善各种实际需求！欢迎**共同建设**！
 
 
-![License](https://img.shields.io/badge/License-BSD%202--Clause-orange)
-[![License](https://img.shields.io/badge/Github-kay--cottage-brightgreen)](https://github.com/kay-cottage/)
-[![License](https://img.shields.io/badge/bilibili-kayyyak-blue)](https://space.bilibili.com/362186371)
-[![License](https://img.shields.io/badge/Notion-gw--kayyyak-yellow)](https://heathered-aster-9c5.notion.site/gw-kayyyak-f64dcc88dce54d50a031d2ba746906b4)
 
 ## 目录主题（ambitions）
 [实现对人卫及相关医学扫描版pdf电子教材的语义检索](pdf教材检索/README.md)
