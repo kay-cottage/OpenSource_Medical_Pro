@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/bilibili-kayyyak-blue)](https://space.bilibili.com/362186371)
 [![License](https://img.shields.io/badge/Notion-gw--kayyyak-yellow)](https://heathered-aster-9c5.notion.site/OpenSource_Medical_Pro-21c8867079f345f190db4da3cada7fe0)
 
-# 介绍（introduction）
+# 介绍
 * 个人的开源医学计划，旨在构建一个功能强大的本地AI工具箱，提高工作学习效率。
 * 构建中文（多语言）NLP针对临床医学、口腔医学领域的知识库语料库，训练具有先验医学专业知识的本地多模态向量搜索引擎；
 * 构建扫描版pdf电子教材自动转换器，实现全书语义检索，解决扫描版pdf电子教材检索、编辑困难的问题；
@@ -18,10 +18,10 @@
 # 原理
 使用大量医学文本对做对比学习，文本编码器通过计算对比句子与句子之间（QA问答等）、句子与文本之间做余弦相似度（Cosine Similarity）来获得学习效果
 
-# 目录导航(Navigate)
-- [简介](#介绍（introduction）)
+# 目录导航
+- [简介](#介绍)
 - [原理](#原理)
-- [目录导航](#目录导航(Navigate))
+- [目录导航](#目录导航)
 - [更新日志](#更新日志)
 - [一些效果展示](#一些效果展示)
     - [具有先验医学专业知识的文本编码器](###具有先验医学专业知识的文本编码器)
