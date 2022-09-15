@@ -76,4 +76,4 @@
 
 2.项目同时备份，更多相关项目欢迎留意个人Notion主站、bilibili 等社交平台
 
-3.欢迎捐赠（未完待续）！
+3.欢迎[捐赠](https://heathered-aster-9c5.notion.site/Donation-776182b0909f4416be1583e31477bf8e)给予小编更多支持与鼓励（未完待续）！
