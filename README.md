@@ -1,13 +1,12 @@
-
 # OpenSource_Medical_Pro
+
+*注意：禁止用于商业用途，欢迎个人学习交流！*
+
 
 ![License](https://img.shields.io/badge/License-BSD%202--Clause-orange)
 [![License](https://img.shields.io/badge/Github-kay--cottage-brightgreen)](https://github.com/kay-cottage/)
 [![License](https://img.shields.io/badge/bilibili-kayyyak-blue)](https://space.bilibili.com/362186371)
-[![License](https://img.shields.io/badge/Notion-gw--kayyyak-yellow)](https://heathered-aster-9c5.notion.site/gw-kayyyak-f64dcc88dce54d50a031d2ba746906b4)
-
-
-*注意：禁止用于商业用途，欢迎个人学习交流！*
+[![License](https://img.shields.io/badge/Notion-gw--kayyyak-yellow)](https://heathered-aster-9c5.notion.site/OpenSource_Medical_Pro-21c8867079f345f190db4da3cada7fe0)
 
 # 介绍（introduction）
 * 个人的开源医学计划，旨在构建一个功能强大的本地AI工具箱，提高工作学习效率。
@@ -16,22 +15,33 @@
 * 实现医学pdf电子教材思维导图生成器；做具有网页信息再筛选功能的浏览器插件，将具有先验知识的向量搜索引擎部署到本地浏览器！
 * 该项目也会整合一些其他的医学AI项目完善各种实际需求！欢迎**共同建设**！
 
+## 原理
+使用大量医学文本对做对比学习，文本编码器通过计算对比句子与句子之间（QA问答等）、句子与文本之间做余弦相似度（Cosine Similarity）来获得学习效果
+
+## 目录导航(Navigate)
+- [简介](#介绍（introduction）)
+- [原理](##原理)
+- [目录导航](##目录导航(Navigate))
+- [更新日志](##更新日志)
+- [一些效果展示](##一些效果展示)
+    - [具有先验医学专业知识的文本编码器](###具有先验医学专业知识的文本编码器（Text Encoder）)
+    - [文本图像编码器做图像检索、文本检索](###文本图像编码器做图像检索、文本检索)
+- [一些展望以及过去相关项目](##一些展望以及过去相关项目)
+- [更多](##更多)
+    - [实现对人卫及相关医学扫描版pdf电子教材的语义检索](pdf教材检索/README.md)
+    - [爬取构建各类wiki、百科等医学专业知识库、语料库](爬虫/README.md)
+    - [构建具有先验医学专业知识的多模态向量搜索引擎](vector_engine/README.md)
+    - [多模态向量搜索引擎浏览器本地插件化的相关实现](local_proxy/README.md)
+    - [基于多模态向量搜索引擎的OCR离线题目搜索](ocr_search/README.md)
+    - [多模态Transformer预模型模型权重下载](dataset/README.md)
+    - [三模态情感模型构建](Three_model/README.md)
+    - [yolox血液细胞形态学检测]()
+    - [Xception细胞识别]()
 
 
-## 目录主题（ambitions）
-[实现对人卫及相关医学扫描版pdf电子教材的语义检索](pdf教材检索/README.md)
+    
 
-[爬取构建各类wiki、百科等医学专业知识库、语料库](爬虫/README.md)
 
-[构建具有先验医学专业知识的多模态向量搜索引擎](vector_engine/README.md)
-
-[多模态向量搜索引擎浏览器本地插件化的相关实现](local_proxy/README.md)
-
-[基于多模态向量搜索引擎的OCR离线题目搜索](ocr_search/README.md)
-
-[多模态Transformer预模型模型权重下载](dataset/README.md)
-
-[三模态情感构建](Three_model/README.md)
 
 ## 更新日志
 
@@ -51,16 +61,14 @@
 
 > ![img_2](img/10.png)
 
-## 一些展望以及过去相关项目
+## 一些展望以及相关资料
 [中文医学词向量](https://github.com/WENGSYX/Chinese-Word2vec-Medicine)
 
 [中文NLP医学领域分词器](https://github.com/lancopku/pkuseg-python)
 
 [清华大学THUOCL NLP中文医学组词库](https://github.com/thunlp/THUOCL)
 
-[yolox血液细胞形态学检测]()
 
-[Xception细胞识别]()
 
 
 ## 更多
