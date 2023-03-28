@@ -43,6 +43,8 @@ Bert-index模型辅助构建GPT3.5/4的prompting并本地化部署私有信息�
     - [使用目标检测技术对教材作预处理操作](###使用目标检测技术对教材作预处理操作)
 - [一些展望以及过去相关项目](##一些展望以及过去相关项目)
 - [更多](##更多)
+    - [基于Bert+GPT3.5/4的0成本私有数据库对话式搜索方案Chatbook+ChatXmind+ChatWeb](https://github.com/kay-cottage/Bulid_Newbing_ByGPT)
+    - [【已开源】基于CLIP+GPT2的多模态问答GPT](https://github.com/kay-cottage/Multimodal_GPT_Q_A)
     - [实现对人卫及相关医学扫描版pdf电子教材的语义检索](pdf教材检索/README.md)
     - [爬取构建各类wiki、百科等医学专业知识库、语料库](爬虫/README.md)
     - [构建具有先验医学专业知识的多模态向量搜索引擎](vector_engine/README.md)
@@ -62,6 +64,8 @@ Bert-index模型辅助构建GPT3.5/4的prompting并本地化部署私有信息�
 2023/03/10 实现Bert+GPT3.5/4的低token成本方案的基础上，利用前面清洗的数十万个医学文本数据集，针对式训练一个中文医学Bert用于辅助ChatGPT的prompting工作
 
 2023/03/02 实现Bert+GPT3.5/4的低token成本方案，实现Chatbook、chatxmind、chatweb生成式对话搜索教材、思维导图等
+
+2023/03/01 完成CLIP+GPT2的多模态问答模型的构建，为后续全自动诊疗、影像学报告自动生成作准备！
 
 2023/02/19 爬取了医学百科3200+种常见病的介绍、诊疗等内容并做成问答题的形式。（目前已整合超过数亿字高质量医学数据集）
 
