@@ -43,7 +43,7 @@ Bert-index模型辅助构建GPT3.5/4的prompting并本地化部署私有信息�
     - [使用目标检测技术对教材作预处理操作](###使用目标检测技术对教材作预处理操作)
 - [一些展望以及过去相关项目](##一些展望以及过去相关项目)
 - [更多](##更多)
-    - [基于Bert+GPT3.5/4的0成本私有数据库对话式搜索方案Chatbook+ChatXmind+ChatWeb](https://github.com/kay-cottage/Bulid_Newbing_ByGPT)
+    - [基于Bert+GPT3.5/4的0成本私有数据库对话式搜索方案ChatXmind+ChatWeb](https://github.com/kay-cottage/Bulid_Newbing_ByGPT)
     - [【已开源】基于CLIP+GPT2的多模态问答GPT](https://github.com/kay-cottage/Multimodal_GPT_Q_A)
     - [实现对人卫及相关医学扫描版pdf电子教材的语义检索](pdf教材检索/README.md)
     - [爬取构建各类wiki、百科等医学专业知识库、语料库](爬虫/README.md)
