@@ -20,7 +20,7 @@
 
 ## 原理
 
-针对医学问答任务训练Bert-index模型作为emmeding方案代替openai text-embedding-ada-002的付费方案
+针对医学问答任务训练Bert-index模型作为embedding，代替openai text-embedding-ada-002的付费方案
 
 Bert-index模型辅助构建GPT3.5/4的prompting并本地化部署私有信息库的ChatGPT对话模型
 
