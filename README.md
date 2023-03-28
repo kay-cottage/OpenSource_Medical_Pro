@@ -19,6 +19,11 @@
 * 项目同时备份在[Notion](https://heathered-aster-9c5.notion.site/OpenSource_Medical_Pro-21c8867079f345f190db4da3cada7fe0)，国内访问速度慢图片无法打开等问题可以尝试切换一下
 
 ## 原理
+
+针对医学问答任务训练Bert-index模型作为emmeding方案代替openai text-embedding-ada-002的付费方案
+
+Bert-index模型辅助构建GPT3.5/4的prompting并本地化部署私有信息库的ChatGPT对话模型
+
 使用自回归原理的GPT，对大量医学教材问答作训练
 
 使用大量医学文本对做对比学习，文本编码器通过计算对比句子与句子之间（QA问答等）、句子与文本之间做余弦相似度（Cosine Similarity）来获得学习效果
@@ -53,6 +58,10 @@
 
 ## 更新日志
 **注意:由于个人算力等资源有限且不少电子书内含水印等；txt版本电子书难免会有不少错漏，后续会继续优化，敬请理解**
+
+2023/03/10 实现Bert+GPT3.5/4的低token成本方案的基础上，利用前面清洗的数十万个医学文本数据集，针对式训练一个中文医学Bert用于辅助ChatGPT的prompting工作
+
+2023/03/02 实现Bert+GPT3.5/4的低token成本方案，实现Chatbook、chatxmind、chatweb生成式对话搜索教材、思维导图等
 
 2023/02/19 爬取了医学百科3200+种常见病的介绍、诊疗等内容并做成问答题的形式。（目前已整合超过数亿字高质量医学数据集）
 
