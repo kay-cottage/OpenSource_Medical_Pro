@@ -61,7 +61,7 @@ Bert-index模型辅助构建GPT3.5/4的prompting并本地化部署私有信息�
 ## 更新日志
 **注意:由于个人算力等资源有限且不少电子书内含水印等；txt版本电子书难免会有不少错漏，后续会继续优化，敬请理解**
 
-2023/03/10 实现Bert+GPT3.5/4的低token成本方案的基础上，利用前面清洗的数十万个医学文本数据集，针对式训练一个中文医学Bert用于辅助ChatGPT的prompting工作
+2023/03/10 实现Bert+GPT3.5/4的低token成本方案的基础上，利用包含数十万个医学文本样本的数据集，针对式训练一个中文医学Bert用于辅助ChatGPT的prompting工程
 
 2023/03/02 实现Bert+GPT3.5/4的低token成本方案，实现Chatbook、chatxmind、chatweb生成式对话搜索教材、思维导图等
 
